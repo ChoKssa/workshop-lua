@@ -2,14 +2,14 @@
 
 ## Install Lua:
 ```
-------- On Debian, Ubuntu & Mint ------------------- 
+------- On Debian, Ubuntu & Mint -------------------
 $ sudo apt install lua5.3
 
-------- On RHEL, CentOS, Rocky & AlmaLinux --------- 
+------- On RHEL, CentOS, Rocky & AlmaLinux ---------
 # yum install epel-release
 # yum install lua
 
-------- On Fedora Linux ---------------------------- 
+------- On Fedora Linux ----------------------------
 # dnf install lua
 
 ------ Other ---------------------------------------
@@ -110,7 +110,7 @@ If no parameter is provided, the default values for __"name"__ and __"status"__ 
 
 Add 2 methods to your Pet map:
     - check: display the pet's name and status
-    - feed: set the pet's status to "Fed" 
+    - feed: set the pet's status to "Fed"
 
 Example:
 
@@ -167,7 +167,6 @@ local t3 = t1 + t2
 
 -- t3.x should be equal to 20 and t3.y should be equal to 25
 ```
-
 
 # BONUS :
 
